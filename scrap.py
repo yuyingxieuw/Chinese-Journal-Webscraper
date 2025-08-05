@@ -5,7 +5,7 @@ import time, random
 
 class Journal:
     def __init__(self):
-        self.api_key = "7d2640ef332042144a2d05dabf9baa65"
+        self.api_key = "AAABBBCCC"
         self.start_url = "https://lyxk.cbpt.cnki.net/WKG/WebPublication/wkTextContent.aspx?colType=4&tp=gklb"
         self.session = HTMLSession()
         self.conn = psycopg2.connect(host="localhost", dbname="geogjournals", user="postgres", 
